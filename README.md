@@ -1,7 +1,7 @@
 # 👩‍💻 Vida Adriana
 
 👉 View my resume website:  
-https://vida2398.github.io/
+https://vida.github.io/
 
 ---
 
