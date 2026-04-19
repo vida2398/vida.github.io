@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vida Resume</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: #0f766e;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+/* Main content */
+.main {
+    margin-left: 270px;
+    padding: 20px;
+    width: 100%;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>Vida</h2>
+    <a href="#about">소개</a>
+    <a href="#skills">기술 스택</a>
+    <a href="#projects">프로젝트</a>
+    <a href="#experience">경험</a>
+    <a href="#education">교육</a>
+</div>
+
+<div class="main">
+
+<div class="section" id="about">
+<h1>소개</h1>
+<p>컴퓨터공학을 전공하며 소프트웨어 개발과 시스템 프로그래밍에 관심이 있는 학생입니다.</p>
+</div>
+
+<div class="section" id="skills">
+<h1>기술 스택</h1>
+<p><b>Front-End:</b> React, HTML/CSS</p>
+<p><b>Back-End:</b> Java, Spring, REST API</p>
+<p><b>System:</b> Linux, C, Raspberry Pi, Arduino, TCP/IP</p>
+<p><b>AR/VR:</b> Unity, C#</p>
+<p><b>DB:</b> MySQL</p>
+</div>
+
+<div class="section" id="projects">
+<h1>프로젝트</h1>
+
+<p><b>영어 대본 파트너 로봇</b></p>
+<ul>
+<li>Raspberry Pi 기반 음성 시스템 개발</li>
+<li>STT / TTS 기능 구현</li>
+<li>발음 평가 기능 실험</li>
+</ul>
+
+<p><b>데이터 분석 프로젝트</b></p>
+<ul>
+<li>Python + Streamlit 활용</li>
+<li>데이터 시각화 및 발표</li>
+</ul>
+
+</div>
+
+<div class="section" id="experience">
+<h1>경험</h1>
+<ul>
+<li>요구사항 분석 및 기능 정의</li>
+<li>데이터베이스 모델링 (ERD)</li>
+<li>TCP/IP 소켓 프로그래밍 기반 통신 구현</li>
+</ul>
+</div>
+
+<div class="section" id="education">
+<h1>교육</h1>
+<p>컴퓨터공학 전공 (재학 중)</p>
+</div>
+
+</div>
+
+</body>
+</html>
